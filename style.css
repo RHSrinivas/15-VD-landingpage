@@ -1,0 +1,247 @@
+body{
+    margin: 0px;
+    background: #000;
+    color: white;
+}
+.section1{
+    margin:10px 100px 10px 100px
+}
+.lists{
+    color: white;
+    list-style-type: none;
+    display: flex;
+    font-size: 15px;
+}
+.list-item{
+    margin-left: 20px;
+
+}
+.section1-nav-bar{
+display: flex;
+cursor: pointer;
+justify-content: space-between;
+}
+.section1-footer{
+    display: flex;
+    padding: 50px;
+    align-items: center;
+gap:100px}
+.man-intro{
+    color: red ;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 10px;
+}
+.man-designation{
+    padding: 10px;
+    font-weight: bold;
+    font-size: 75px;
+}
+.info{
+    padding: 10px;
+    font-size: 25px;
+}
+.aboutme{
+    padding-top: 10px;
+}
+.about-me{
+    padding: 10px;
+    background: rgb(197, 68, 68);
+    width: 150px;
+    height: 50px;
+    font-size: 15px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.section2{
+    margin: 100px;
+}
+.know-more{
+display: flex;
+align-items: center;
+gap: 10px;
+
+}
+.know{
+    color:rgb(197, 68, 68); 
+    font-size: 20px;
+}
+.ui-design-info{
+    width: 50%;
+}
+.card{
+    padding: 50px;
+    background: rgb(39, 39, 39);
+
+}
+.ui,.ui-design-heading,.ui-design-info,.know-more{
+padding: 10px;
+cursor: pointer;
+}
+.ui-design-heading{
+    font-size: 30px;
+    font-weight: bold;
+}
+.cards{
+display: flex;
+gap: 100px;
+}
+
+.card1,.ui-design-heading1 p,.ui-design-info1 p{
+    background: red;
+
+}
+
+.section3{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+}
+
+.tweleve-head{
+    font-weight: bold;
+    font-size: 100px;
+    color: red;
+}
+.tweleve-head p{
+    color: red;
+
+}
+.tweleve-info{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.twelve-experience{
+    text-align: center;
+    width: 25%;
+    margin: 100px;
+}
+.client{
+    color: red;
+    font-weight: bold;
+    font-size: 40px;
+}
+.client-information{
+    font-size: 30px;
+}
+.client-head,.client-info{
+   background: transparent;
+
+}
+.grid-card{
+    box-sizing: border-box;
+  width: 500px;
+   text-align: center;
+   padding: 50px;
+   background: rgb(39, 39, 39);
+}
+.know1,.aboutme1{
+    color: white;
+}
+.grid-cards{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 50px;
+}   
+.section4,.section6{
+    margin-top: 100px;
+margin-left: 100px;
+margin-right: 100px;
+    display: flex;
+    align-items: center;
+justify-content: space-between;
+}
+.fh{
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.gridcard2{
+    background: rgb(39, 39, 39);
+
+}
+.twenty-one{
+
+    padding: 100px 50px;
+}
+.ui-design-heading2{
+    margin: 0px;
+    padding: 0px;
+    background: red;
+}
+.know-more3{
+    display: flex;
+    align-items: center;
+    column-gap: 20px;
+    font-weight: bold;
+    color: red;
+    font-size: 20px;
+    position: relative;
+    bottom:50px;
+}
+.vint{
+    font-weight: bold;
+    font-size: 50px;
+
+}
+.section5{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.gridcard2{
+    text-align: center;
+}
+
+.section6{
+
+    background: rgb(39, 39, 39);
+    padding:0 50px
+}
+.fh-info{
+    width: 50%;
+}
+.listitems{
+    margin: 100px;
+
+}
+.lists1{
+    justify-content: center;
+    cursor: pointer;
+}
+.section8{
+    background: rgb(39, 39, 39);
+padding: 50px 100px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+cursor:pointer;
+}
+@media screen and (max-width:1200px){
+    .section1-nav-bar,.list,.cards{
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .section1-footer img{
+height: 300px;
+    }
+    .lists,.list-item{
+margin-top: 10px;
+    }
+  .man-info,.man-intro,.man-designation{
+padding: 0;
+margin: 0;
+  }.cards{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .grid-cards{
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+  }
+}
