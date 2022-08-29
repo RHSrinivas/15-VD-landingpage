@@ -9,5 +9,5 @@
 
 &nbsp;
 
-![project_1 logo]([./15.PNG](https://github.com/RHSrinivas/15-VD-landingpage/blob/main/15.png))
+![project_1 logo](https://github.com/RHSrinivas/15-VD-landingpage/blob/main/15.png)
 
